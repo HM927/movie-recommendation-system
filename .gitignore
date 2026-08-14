@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# MovieLensの元データはGitHubへ含めない
+/data/raw/
+*.zip
+
+# macOSが自動生成するファイル
+.DS_Store
